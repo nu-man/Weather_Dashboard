@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const WeatherContext = createContext();
 
-const API_KEY = 'API KEY';
+const API_KEY = '5e4c26b5aa7e400becb16cb4d18bb7ff';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 export const WeatherProvider = ({ children }) => {
